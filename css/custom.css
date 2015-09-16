@@ -112,10 +112,8 @@ hr {
     border-color: #999999;
 }
 
-.bio {
-    margin: 15px auto 3px;
-    max-width: 200px;
-    border-color: #999999; 
+.underline {
+    text-decoration: underline;
 }
 
 .box {
