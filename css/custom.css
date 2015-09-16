@@ -12,12 +12,12 @@ h1 {
         letter-spacing: 3px;
         font-size: 6em;
 }
+h2, 
 h3{
     font-weight: 300;
     letter-spacing: 1px;
 }
 
-h2,
 h4,
 h5,
 h6 {
