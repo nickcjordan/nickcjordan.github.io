@@ -114,6 +114,12 @@ hr {
     border-color: #999999;
 }
 
+.project-divider {
+    margin: 15px auto 3px;
+    max-width: 150px;
+    border-color: #999999;
+}
+
 .underline {
     text-decoration: underline;
 }
