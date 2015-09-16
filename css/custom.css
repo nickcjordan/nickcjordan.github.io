@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-        letter-spacing: 3px;
-        font-size: 6em;
+        letter-spacing: 4px;
+        font-size: 8em;
 }
 h2{
     font-weight: 300;
@@ -19,7 +19,7 @@ h2{
 }
 h3{
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 h4{
