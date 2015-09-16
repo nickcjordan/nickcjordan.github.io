@@ -113,7 +113,8 @@ hr {
 }
 
 .box {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
