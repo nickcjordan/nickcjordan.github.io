@@ -18,13 +18,15 @@ h2{
     letter-spacing: 2px;
 }
 h3{
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 2px;
 }
 
 h4{
     letter-spacing: 1px;
+    font-weight: 200;
 }
+
 h5,
 h6 {
     text-transform: uppercase;
