@@ -181,7 +181,7 @@ hr {
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #000000 solid 10px;
+    border: #333 solid 5px;
 }
 
 .img-front {
