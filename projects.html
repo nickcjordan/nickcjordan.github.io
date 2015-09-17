@@ -132,10 +132,10 @@
                     <p>
                         <h4 small>
                             Each round of the algorithm consists of four steps: <br>
-                                <strong>subBytes:</strong> For each byte in the array, its value is used as an index into a fixed 256-element lookup table, and is replaced by the byte value stored at that location in the table. <br>
-                                <strong>shiftRows:</strong> If R.i denotes the i'th row in state, this step circularly shifts R.0 in the state left 0 bytes, R.1 left 1 byte, R.2 left 2 bytes, and so on until all rows are shifted. These shifts do not affect the individual byte values themselves. <br>
-                                <strong>mixColumns:</strong> For each column of the state, the column is replaced by its value multiplied by a fixed 4 x 4 matrix of integers (in a particular Galois Field). The inverse operation multiplies by a different matrix. <br>
-                                <strong>addRoundkey:</strong>This final step XOR's the state with a 128-bit round key derived from the original key K by a recursive process. For encryption, the final round is slightly different from the others and there is an additional addRoundKey. For decryption, the initial round is slightly different and there is an additional addRoundKey. 
+                                <ital>subBytes:</ital> For each byte in the array, its value is used as an index into a fixed 256-element lookup table, and is replaced by the byte value stored at that location in the table. <br>
+                                <ital>shiftRows:</ital> If R.i denotes the i'th row in state, this step circularly shifts R.0 in the state left 0 bytes, R.1 left 1 byte, R.2 left 2 bytes, and so on until all rows are shifted. These shifts do not affect the individual byte values themselves. <br>
+                                <ital>mixColumns:</ital> For each column of the state, the column is replaced by its value multiplied by a fixed 4 x 4 matrix of integers (in a particular Galois Field). The inverse operation multiplies by a different matrix. <br>
+                                <ital>addRoundkey:</ital>This final step XOR's the state with a 128-bit round key derived from the original key K by a recursive process. For encryption, the final round is slightly different from the others and there is an additional addRoundKey. For decryption, the initial round is slightly different and there is an additional addRoundKey. 
                         </h4 small>
                     </p>
                 </div>
