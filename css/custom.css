@@ -131,10 +131,10 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(228,255,255,0.9);
-    -moz-box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
-    -webkit-box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
-    box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
+    background: rgba(245,255,255,0.9);
+    -moz-box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
+    -webkit-box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
+    box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
 }
 
 .box-main {
@@ -142,10 +142,10 @@ hr {
     margin-bottom: 75px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(228,255,255,0.9);
-    -moz-box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
-    -webkit-box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
-    box-shadow: 0 0 10px 10px rgba(228,255,255,0.9);
+    background: rgba(245,255,255,0.9);
+    -moz-box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
+    -webkit-box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
+    box-shadow: 0 0 10px 10px rgba(245,255,255,0.9);
 }
 
 .boxx {
@@ -157,10 +157,10 @@ hr {
     margin-bottom: 25px;
     padding: 5px 0px;   
     background: #fff;
-    background: rgba(228,255,255,0.9);
-    -moz-box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
-    -webkit-box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
-    box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
+    background: rgba(245,255,255,0.9);
+    -moz-box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
+    -webkit-box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
+    box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
 }
 
 .intro-text {
@@ -284,10 +284,10 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(228,255,255,0.9);
-        -moz-box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
-        -webkit-box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
-        box-shadow: 0 0 5px 5px rgba(228,255,255,0.9);
+        background: rgba(245,255,255,0.9);
+        -moz-box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
+        -webkit-box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
+        box-shadow: 0 0 5px 5px rgba(245,255,255,0.9);
     }
 
     .nav>li>a {
