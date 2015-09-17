@@ -113,7 +113,29 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> Here, my partner and I developed an algorithm for the Netflix Prize coding competition held in 2009. The prize would award $1 Million to the group who could develop an algorithm to predict user movie ratings at least 10% better than the one they already had. We wrote our algorithm in 2015, so obviously the compeition had since ended. We were only given 3 types of data points: a list of every user's previous movie ratings, and a list of all ratings for each movie, and the movie release date of each movie. The actual competitors were allowed to integrate essentially endless amounts of data into their algorithms, but despite our relatively specific data set, we still managed to develop an algorithm that could predict user movie ratings 2% better than Netflix had done prior to the competition. Netflix's RMSE value from their algorithm was 0.95, where ours was 0.93. Although it is not remarkably better, I believe there is still some merit to the fact that we beat Netflix, no matter by how much or little.
+                            <strong>Description:</strong> My partner and I developed an algorithm for the Netflix Prize coding competition held in 2009. The prize would award $1 Million to the group who could develop an algorithm to predict user movie ratings at least 10% better than the one they already had. We wrote our algorithm in 2015, so obviously the compeition had since ended. We were only given 3 types of data points: a list of every user's previous movie ratings, and a list of all ratings for each movie, and the movie release date of each movie. The actual competitors were allowed to integrate essentially endless amounts of data into their algorithms, but despite our relatively specific data set, we still managed to develop an algorithm that could predict user movie ratings 2% better than Netflix had done prior to the competition. Netflix's RMSE value from their algorithm was 0.95, where ours was 0.93. Although it is not remarkably better, I believe there is still some merit to the fact that we beat Netflix, no matter by how much or little.
+                        </h4 small>
+                    </p>
+                </div>
+
+<!--AES-->
+                <div class="col-lg-12 text-left">
+                    <h4 class="underline"><strong>AES Security Encryption Algorithm</strong></h4>
+                    <h4 small>
+                        <strong>github:</strong>AES_Encryption_Security<a href="https://github.com/nickcjordan/UTCS_Projects/tree/master/AES_Encryption_Security"></a> <br>
+                    </h4 small>
+                    <p>
+                        <h4 small>
+                            <strong>Description:</strong> This program recreates the Advanced Encryption Standard (AES) commercial block cipher algorithm, designed to replace the earlier DES.AES uses repeat cycles or "rounds." There are 10, 12, or 14 rounds for keys of 128, 192, and 256 bits, respectively. The input text is represented as a 4 x 4 array of bytes. The key is represented as a 4 x n array of bytes, where n depends on the key size.
+                        </h4 small>
+                    </p>
+                    <p>
+                        <h4 small>
+                            Each round of the algorithm consists of four steps: <br>
+                                <strong>subBytes:</strong> For each byte in the array, its value is used as an index into a fixed 256-element lookup table, and is replaced by the byte value stored at that location in the table. <br>
+                                <strong>shiftRows:</strong> If R.i denotes the i'th row in state, this step circularly shifts R.0 in the state left 0 bytes, R.1 left 1 byte, R.2 left 2 bytes, and so on until all rows are shifted. These shifts do not affect the individual byte values themselves. <br>
+                                <strong>mixColumns:</strong> For each column of the state, the column is replaced by its value multiplied by a fixed 4 x 4 matrix of integers (in a particular Galois Field). The inverse operation multiplies by a different matrix. <br>
+                                <strong>addRoundkey:</strong>This final step XOR's the state with a 128-bit round key derived from the original key K by a recursive process. For encryption, the final round is slightly different from the others and there is an additional addRoundKey. For decryption, the initial round is slightly different and there is an additional addRoundKey. 
                         </h4 small>
                     </p>
                 </div>
@@ -131,19 +153,6 @@
                     </p>
                 </div>
 
-<!--AES-->
-                <div class="col-lg-12 text-left">
-                    <h4 class="underline"><strong>AES Security Encryption</strong></h4>
-                    <h4 small>
-                        <strong>github:</strong> <a href=""></a> <br>
-                    </h4 small>
-                    <p>
-                        <h4 small>
-                            <strong>Description:</strong> something 
-                        </h4 small>
-                    </p>
-                </div>
-
 <!--huffman-->
                 <div class="col-lg-12 text-left">
                     <h4 class="underline"><strong>Huffman Algorithm Compression Encoding</strong></h4>
@@ -152,7 +161,7 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> something 
+                            <strong>Description:</strong> Given a list of the relative frequencies of successive characters in an n-character alphabet, this program first computes the entropy of the language. With these computed probabilities, the program then uses the Huffman algorithm to devise a binary encoding on this alphabet, and creates a large file of randomly generated characters at their expected probabilities. The file is encoded using the already created binary encoding, then decodes the file and measures the efficiency of the encoding by computing the actual average bits per symbol as it translates. This process is repeated with a 2-character alphabet and the compression encoding efficiency is measured.
                         </h4 small>
                     </p>
                 </div>
@@ -165,7 +174,7 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> something 
+                            <strong>Description:</strong>  This program takes a simple BLP implementation and updates the secure system to add three new operations designed to introduce a covert channel into the system. The program implements the covert channel and uses it to signal information from a high level user to a low level user. After successfully sending a file through the channel, bit by bit, the program measures and reports the bandwidth of the channel. 
                         </h4 small>
                     </p>
                 </div>
@@ -178,7 +187,7 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> something 
+                            <strong>Description:</strong> This program implements a simple "secure" system following the Bell and LaPadula (BLP) security rules: simple security, the *-property, and strong tranquility. The program models a system where there are high and low security levels, and based upon the security level of an individual, they are either denied or allowed the ability to perform certain actions such as reading from or writing to a file.
                         </h4 small>
                     </p>
                 </div>
