@@ -9,8 +9,9 @@ body {
 }
 
 h1 {
-        letter-spacing: 4px;
-        font-size: 10vw;
+    letter-spacing: 4px;
+    font-size: 10vw;
+    font-color: #950000;
 }
 h2{
     font-weight: 300;
