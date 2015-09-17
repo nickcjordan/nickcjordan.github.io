@@ -7,7 +7,9 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-
+ital {
+  font-style: italic;
+}
 h1 {
     letter-spacing: 4px;
     font-size: 10vw;
