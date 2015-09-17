@@ -17,35 +17,35 @@ h2{
     font-weight: 300;
     font-size: 2.5vw;
     letter-spacing: 2px;
-    color: #E6E6E6;
+    color: #161616;
 }
 h3{
     font-weight: 300;
     letter-spacing: 1px;
-    color: #E6E6E6;
+    color: #161616;
 }
 
 h4{
     letter-spacing: 1px;
     font-weight: 200;
-    color: #E6E6E6;
+    color: #161616;
 }
 
 h5,
 h6 {
     font-weight: 100;
     letter-spacing: 1px;
-    color: #E6E6E6;
+    color: #161616;
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.2;
-    color: #E6E6E6;}
+    color: #161616;}
 
 hr {
     max-width: 750px;
-    color: #E6E6E6;}
+    color: #161616;}
 
 .brand,
 .address-bar {
@@ -131,10 +131,10 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(12,12,12,0.9);
-    -moz-box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
-    -webkit-box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
-    box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
+    background: rgba(224,224,224,0.9);
+    -moz-box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
+    -webkit-box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
+    box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
 }
 
 .box-main {
@@ -142,10 +142,10 @@ hr {
     margin-bottom: 75px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(12,12,12,0.9);
-    -moz-box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
-    -webkit-box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
-    box-shadow: 0 0 10px 10px rgba(12,12,12,0.9);
+    background: rgba(224,224,224,0.9);
+    -moz-box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
+    -webkit-box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
+    box-shadow: 0 0 10px 10px rgba(224,224,224,0.9);
 }
 
 .boxx {
@@ -157,10 +157,10 @@ hr {
     margin-bottom: 25px;
     padding: 5px 0px;   
     background: #fff;
-    background: rgba(192,192,192,0.9);
-    -moz-box-shadow: 0 0 5px 5px rgba(192,192,192,0.9);
-    -webkit-box-shadow: 0 0 5px 5px rgba(192,192,192,0.9);
-    box-shadow: 0 0 5px 5px rgba(192,192,192,0.9);
+    background: rgba(224,224,224,0.9);
+    -moz-box-shadow: 0 0 5px 5px rgba(224,224,224,0.9);
+    -webkit-box-shadow: 0 0 5px 5px rgba(224,224,224,0.9);
+    box-shadow: 0 0 5px 5px rgba(224,224,224,0.9);
 }
 
 .intro-text {
