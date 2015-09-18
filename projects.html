@@ -109,7 +109,7 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> My partner and I developed an algorithm for the Netflix Prize coding competition held in 2009. The prize would award $1 Million to the group who could develop an algorithm to predict user movie ratings at least 10% better than the one they already had. We wrote our algorithm in 2015, so obviously the compeition had since ended. We were only given 3 types of data points: a list of every user's previous movie ratings, and a list of all ratings for each movie, and the movie release date of each movie. The actual competitors were allowed to integrate essentially endless amounts of data into their algorithms, but despite our relatively specific data set, we still managed to develop an algorithm that could predict user movie ratings 2% better than Netflix had done prior to the competition. Netflix's RMSE value from their algorithm was 0.95, where ours was 0.93. Although it is not remarkably better, I believe there is still some merit to the fact that we beat Netflix, no matter by how much or little.
+                            <strong>Description:</strong> My partner and I developed an algorithm for the Netflix Prize coding competition held in 2009. The prize would award $1 Million to the group who could develop an algorithm to predict user movie ratings at least 10% better than the one they already had. We wrote our algorithm in 2015, so obviously the compeition had since ended. We were only given 3 types of data points: a list of every user's previous movie ratings, a list of all ratings for each movie, and the movie release date of each movie. The actual competitors were allowed to integrate essentially endless amounts of data into their algorithms, but despite our relatively specific data set, we still managed to develop an algorithm that could predict user movie ratings 2% better than Netflix had done prior to the competition. Netflix's RMSE value from their algorithm was 0.95, where ours was 0.93. Although it is not remarkably better, I believe there is still some merit to the fact that we beat Netflix, no matter by how much or little.
                         </h4 small>
                     </p>
                 </div>
@@ -129,18 +129,14 @@
                     <p>
                         <h4 small>
                             Each round of the algorithm consists of four steps: <br>
-                                <indent>
-                                    <ital>subBytes:</ital> For each byte in the array, its value is used as an index into a fixed 256-element lookup table, and is replaced by the byte value stored at that location in the table. <br>
-                                </indent>
-                                <indent>
-                                    <ital>shiftRows:</ital> If R.i denotes the i'th row in state, this step circularly shifts R.0 in the state left 0 bytes, R.1 left 1 byte, R.2 left 2 bytes, and so on until all rows are shifted. These shifts do not affect the individual byte values themselves. <br>
-                                </indent>
-                                <indent>
-                                    <ital>mixColumns:</ital> For each column of the state, the column is replaced by its value multiplied by a fixed 4 x 4 matrix of integers (in a particular Galois Field). The inverse operation multiplies by a different matrix. <br>
-                                </indent>
-                                <indent>
-                                    <ital>addRoundkey:</ital>This final step XOR's the state with a 128-bit round key derived from the original key K by a recursive process. For encryption, the final round is slightly different from the others and there is an additional addRoundKey. For decryption, the initial round is slightly different and there is an additional addRoundKey.
-                                </indent>
+                                
+                                <ital>subBytes:</ital> For each byte in the array, its value is used as an index into a fixed 256-element lookup table, and is replaced by the byte value stored at that location in the table. <br>
+
+                                <ital>shiftRows:</ital> If R.i denotes the i'th row in state, this step circularly shifts R.0 in the state left 0 bytes, R.1 left 1 byte, R.2 left 2 bytes, and so on until all rows are shifted. These shifts do not affect the individual byte values themselves. <br>
+
+                                <ital>mixColumns:</ital> For each column of the state, the column is replaced by its value multiplied by a fixed 4 x 4 matrix of integers (in a particular Galois Field). The inverse operation multiplies by a different matrix. <br>
+
+                                <ital>addRoundkey:</ital>This final step XOR's the state with a 128-bit round key derived from the original key K by a recursive process. For encryption, the final round is slightly different from the others and there is an additional addRoundKey. For decryption, the initial round is slightly different and there is an additional addRoundKey.
                         </h4 small>
                     </p>
                 </div>
@@ -210,7 +206,21 @@
                     </h4 small>
                     <p>
                         <h4 small>
-                            <strong>Description:</strong> These are just a few of the programs I have written for fun. Most of them are games, such as blackjack, minesweeper, tic-tac-toe, and a few others. Some of them are very primative because I wrote them when I first began learning how to code, but a few of them are quite complex, such as minesweeper and blackjack. 
+                            <strong>Description:</strong> These are just a few of the programs I have written outside of academic reasons, most of them are games. Some of them are very primative because I wrote them when I first began learning how to code, but I have since become more experienced and have produced more efficient and complex programs. Here are some of the programs I have written so far: <br>
+                                <ital>Blackjack:</ital> This game is a fully functional blackjack game, playing against the dealer. It allows you to bet your chips, double down, split hands, and so on. It is command-line interface. 
+                                <br>
+                                <ital>Minesweeper:</ital> This game was actually written as part of my intro to programming class, but I figured it fit better with the game section. It is a full minesweeper game, and includes a GUI. 
+                                <br>
+                                <ital>Tic-Tac-Toe:</ital> I wrote two different versions of this game, one a while back when I was still learning how to program, and another more recently. The first version was written in Java, and is not very good code. I came back later and re-wrote the game in C in a much more efficient way. It is command-line interface. 
+                                <br>
+                                <ital>Trivia:</ital> This game is a bit more personal, and is essentially a Jeopardy trivia game full of facts about myself, and was written for fun to test my family and friends on how well they knew me.
+                                <br>
+                                <ital>Number Guess:</ital> This is a simple number guessing game, where you think of a number between 1-1000 and the computer guesses it in just a few tries. It implements a binary search algorithm to find the number.
+                                <br>
+                                <ital>Rock Paper Scissors:</ital> This is a simple implementation of classic rock paper scissors, where you pick your move and the computer randomly picks theirs. The results are compared and the win count is kept.
+                                <br>
+                                <ital>Magic 8 Ball:</ital> This is a very simple implementation of the classic magic 8 ball. You ask it a question and the command-line responds with one of the many answers it has.
+                                <br>
                         </h4 small>
                     </p>
                 </div>
